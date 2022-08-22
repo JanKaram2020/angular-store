@@ -1,0 +1,15 @@
+<div class="card" style="width: 18rem;">
+  <a routerLink="/product/{{product.id}}" >
+  <img [src]="product.url"  [alt]="product.name" class="card-img-top">
+  </a>
+  <div class="card-body">
+    <a routerLink="/product/{{product.id}}" style="color:inherit; text-decoration: none">
+    <h5 class="card-title">{{product.name}}</h5>
+    <p class="card-text">{{product.description}}</p>
+    </a>
+    <select class="form-select mt-2" [(ngModel)]="quantity">
+      <option *ngFor="let i of [1,2,3,4,5,6,7,8,9,10]" [value]="i">{{i}}</option>
+    </select>
+    <button (click)="addToCart(product.id)" class="btn btn-primary mt-3">Add to cart</button>
+  </div>
+</div>

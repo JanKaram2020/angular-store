@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  .list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+}

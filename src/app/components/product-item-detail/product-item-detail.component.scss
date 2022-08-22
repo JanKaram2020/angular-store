@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  img{
+    height: 300px;
+    width: 200px;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+  button{
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+  }
+  }
+}
