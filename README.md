@@ -1,27 +1,27 @@
-# FinalProject
+<h3 align="center">My Angular Store</h3>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+  <p align="center">
+    <a href="https://angular-store-jankaram2020.vercel.app/">View Demo</a>
+  </p>
 
-## Development server
+### Built with
+* Angular
+* SCSS
+* Bootstrap
+* NgRx with local storage persistence
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Starting the project
 
-## Code scaffolding
+* first run yarn or npm install
+* make sure to have angular/cli available or install it with npm install -g @angular/cli
+* run ng serve
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Purpose of the project
+To train and get hands-on experience with angular and show my skills to my collages and future employers.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Explaining the project
+this is an ecommerce like application that reads data from json file and saves state to local storage.
+* you can add products to the cart, remove , decrement and increment.
+* shows a checkout screen
+* shows a product detail screen
+* shows products in the homepage
